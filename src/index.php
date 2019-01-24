@@ -11,7 +11,7 @@
         <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
         <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     </head>
-#0000F
+
     <body>
         <div class="container">
             <div class="hero-unit">
