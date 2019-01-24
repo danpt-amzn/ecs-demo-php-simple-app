@@ -18,7 +18,7 @@
                 <h1>ECS Microservice Demo App</h1>
                 <h2>Welcome</h2>
                 <p>Web App running on a container in Amazon ECS.</p>
-                <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
+                <p>TContainer PHP version <?php echo phpversion(); ?>.</p>
                 <?php
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
@@ -33,3 +33,4 @@
     </body>
 
 </html>
+#0000F
