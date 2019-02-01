@@ -9,7 +9,7 @@
     "containerDefinitions": [
         {
             "environment": [],
-            "name": "simple-app",
+            "name": "web-app",
             "image": "amazon/amazon-ecs-sample",
             "cpu": 10,
             "memory": 500,
@@ -39,7 +39,7 @@
             "memory": 500,
             "volumesFrom": [
             {
-              "sourceContainer": "simple-app"
+              "sourceContainer": "web-app"
             }
             ],
             "entryPoint": [
