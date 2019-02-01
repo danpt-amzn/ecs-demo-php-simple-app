@@ -25,7 +25,7 @@
                       <input type="button" value="Scale API Service" style="float: center;" onclick="location='hammer.php'"></h1>
                  <center>      
                  <?php
-                       $url = 'http://localhost:5000/Query?year=2000'; // path to your JSON file
+                       $url = 'http://10.215.10.147:5000/Query?year=2000'; // path to your JSON file
                        $json = file_get_contents($url);
                        $koyim=  json_decode($json, true);
                        echo '<div class="boxed">';
