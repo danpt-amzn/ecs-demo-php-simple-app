@@ -51,7 +51,7 @@
       
                 
          if(isset($_GET["year"])) {
-           $url = 'http://192.168.1.108:5000/Query?year='; // Base Query API URL
+           $url = 'http://api.movies.com:5000/Query?year='; // Base Query API URL
            $url = $url . $yearq; //create API Get URL from base  URL and GET search parameter $_GET from form element
            $json = file_get_contents($url);
            $koyim=  json_decode($json, true);
@@ -75,7 +75,7 @@
             }
           }
           if(isset($_GET["title"])) {
-             $url = 'http://192.168.1.108:5000/Query-name?title='; // Base Query API URL
+             $url = 'http://api.movies.com:5000/Query-name?title='; // Base Query API URL
              $titleq = urlencode($titleq);
              $url = $url . $titleq; //create API Get URL from base  URL and GET search parameter $_GET from form element
              $json = file_get_contents($url);
