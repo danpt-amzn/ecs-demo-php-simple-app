@@ -24,7 +24,7 @@
                       <input type="button" value="Full Table Scan" style="float: center;" onclick="location='scan.php'"></h1>
                  <center>      
                  <?php
-                       $url = 'http://192.168.1.108:5000/Hammer'; // path to your JSON file
+                       $url = 'http://api.movies.com:5000/Hammer'; // path to your JSON file
                        $json = file_get_contents($url);
                        $koyim=  json_decode($json, true);
                        echo '<div class="boxed">';
