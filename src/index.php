@@ -18,7 +18,7 @@
         <p align="right">Container PHP version <?php echo phpversion(); ?>.</p>
           <div class="container">
             <div class="hero-unit">
-                    <center> <h1>Movies DB Microservice V3</h1><center>
+                    <center> <h1>Movies DB Microservice</h1><center>
                       <input type="button" value="Home" style="float: center;" onclick="location='index.php'" />
                       <input type="button" value="Find Movie" style="float: center;" onclick="location='query.php'" />
                       <input type="button" value="Full Table Scan" style="float: center;" onclick="location='scan.php'"></h1>
